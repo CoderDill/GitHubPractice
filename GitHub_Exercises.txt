@@ -1,3 +1,12 @@
 mkdir gitPractice
 cd gitPractice
 touch index.html app.cs app.js
+git add .
+git commit -m "git practice"
+git remote add origin https://github.com/CrappyDill/GitHubPractice.git
+git push -u origin master
+git branch main
+git checkout main
+touch text.txt javascript.js css.css
+git add .
+git commit -m "new branch and files"
