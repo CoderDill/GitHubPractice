@@ -10,3 +10,5 @@ git checkout main
 touch text.txt javascript.js css.css
 git add .
 git commit -m "new branch and files"
+git push origin main
+
